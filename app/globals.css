@@ -1,13 +1,25 @@
+/* ==================== Reseting HTML ==================== */
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-main{
-  height: 100vh;
+html,
+body{
   width: 100vw;
-  background-color: #efefef;
-  display: grid;
-  place-items: center;
+  overflow: hidden;
+  color: #ffffff;
 }
+
+main{
+  background-color: #000000;
+  height: calc(100vh - 5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* ==================== Styling ==================== */
