@@ -1,8 +1,13 @@
 // Imported Components
-import Header from "./Header";
+import Header from "./(header)/Header";
 
 // Style
 import "./globals.css";
+
+// Fonts
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 // SEO
 export const metadata = {
@@ -18,7 +23,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en">
+		<html lang="en" style={{ fontFamily: inter.style.fontFamily }}>
 			<body style={{ margin: 0 }}>
 				<Header />
 				{children}

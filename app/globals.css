@@ -22,4 +22,14 @@ main{
   flex-direction: column;
 }
 
+ul{
+  display: flex;
+  list-style: none;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
 /* ==================== Styling ==================== */
