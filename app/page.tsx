@@ -1,16 +1,10 @@
-import { Post } from "@/components/Post/Post";
+import Home from "./(home)/Home";
 
 // Functional Component
-export default async function Home() {
+export default async function App() {
 	return (
 		<main>
-			<h1>Home</h1>
-			<Post />
-			<Post />
-			<Post />
-			<Post />
-			<Post />
-			<Post />
+			<Home />
 		</main>
 	);
 }

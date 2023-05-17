@@ -9,22 +9,19 @@
 html,
 body{
   width: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
   color: #ffffff;
-}
-
-main{
-  background-color: #000000;
-  height: calc(100vh - 5rem);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  background-color: #303030;
 }
 
 ul{
   display: flex;
   list-style: none;
+}
+
+img{
+  width: 100%;
+  height: auto;
 }
 
 a{
@@ -33,3 +30,9 @@ a{
 }
 
 /* ==================== Styling ==================== */
+
+.page_container{
+  width: min(1800px, 80%);
+  margin-inline: auto;
+  padding-top: 4em;
+}

@@ -1,0 +1,23 @@
+.home{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.home_title{
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.post_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .post_container{
+    grid-template-columns: 1fr;
+  }
+}

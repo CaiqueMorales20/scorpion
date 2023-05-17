@@ -12,7 +12,6 @@ export default function NavMenu() {
 			<ul className={styles.nav_list}>
 				<NavItem title="Home" href="/" />
 				<NavItem title="Profile" href="/profile" />
-				<NavItem title="Dashboard" href="/dashboard" />
 			</ul>
 		</div>
 	);
